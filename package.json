@@ -4,7 +4,7 @@
   "type": "module",
   "description": "",
   "main": "index.js",
-"bin": {
+  "bin": {
     "brain-games": "bin/brain-games.js"
   },
   "scripts": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Alina-ai0/frontend-project-45/issues"
   },
-  "homepage": "https://github.com/Alina-ai0/frontend-project-45#readme"
+  "homepage": "https://github.com/Alina-ai0/frontend-project-45#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
