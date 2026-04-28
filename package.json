@@ -8,7 +8,8 @@
     "brain-games": "bin/brain-games.js"
   },
   "scripts": {
-    "brain-games": "node bin/brain-games.js"
+    "brain-games": "node bin/brain-games.js",
+"lint": "npx eslint ."
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,10 @@
   "homepage": "https://github.com/Alina-ai0/frontend-project-45#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.2.1"
   }
 }
